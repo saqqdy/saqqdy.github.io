@@ -13,7 +13,7 @@ export default {
     name: 'BaseStar',
     methods: {
         starGithub() {
-            window.open('https://github.com/saqqdy/gitmars')
+            window.open('https://github.com/saqqdy/saqqdy.github.io')
         }
     }
 }

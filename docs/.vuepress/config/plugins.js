@@ -10,9 +10,9 @@ module.exports = [
             // 设置 `platform` 而不是 `api` 我这里是在github平台
             platform: 'github',
             // owner与repo配置 https://github.com/${owner}/${repo}
-            // 例如我的仓库地址为https://github.com/saqqdy/gitmars 则owner为saqqdy，repo为gitmars
+            // 例如我的仓库地址为https://github.com/saqqdy/saqqdy.github.io 则owner为saqqdy，repo为saqqdy.github.io
             owner: 'saqqdy',
-            repo: 'gitmars',
+            repo: 'saqqdy.github.io',
             // 填写自己的OAuth App 信息。详见https://vssue.js.org/zh/options/#repo
             clientId: 'f1b676f79b587ad9dced',
             clientSecret: 'd34199eee81d1bb5f4b386ef45b0816d636a1e66',

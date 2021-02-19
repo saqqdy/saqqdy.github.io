@@ -13,7 +13,7 @@ sidebarDepth: 2
 
 -   使用：`gitm go`
 -   演示：
-    > ![gitmars-go.gif](https://raw.githubusercontent.com/saqqdy/gitmars/master/lib/img/gitmars-go.gif)
+    > ![gitmars-go.gif](https://raw.githubusercontent.com/saqqdy/saqqdy.github.io/master/lib/img/gitmars-go.gif)
 
 ## 工作流
 

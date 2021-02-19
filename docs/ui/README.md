@@ -2,7 +2,7 @@
 title: guide
 ---
 
-![logo.png](https://raw.githubusercontent.com/saqqdy/gitmars/master/lib/img/logo.png)
+![logo.png](https://raw.githubusercontent.com/saqqdy/saqqdy.github.io/master/lib/img/logo.png)
 
 # h1
 

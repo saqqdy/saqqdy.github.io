@@ -1,7 +1,7 @@
 {
-    "name": "gitmars-docs",
+    "name": "blog",
     "version": "1.0.0",
-    "description": "vuepress docs demo",
+    "description": "saqqdy's blog",
     "scripts": {
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs",
@@ -34,21 +34,21 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/saqqdy/gitmars.git"
+        "url": "git+https://github.com/saqqdy/saqqdy.github.io.git"
     },
     "keywords": [
         "vue doc",
         "plugin",
         "vuepress-plugin",
-        "gitmars-docs",
-        "gitmars",
+        "saqqdy.com",
+        "blog",
         "vuepress",
         "saqqdy"
     ],
     "author": "saqqdy@qq.com",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/saqqdy/gitmars/issues"
+        "url": "https://github.com/saqqdy/saqqdy.github.io/issues"
     },
-    "homepage": "https://github.com/saqqdy/gitmars#readme"
+    "homepage": "https://github.com/saqqdy/saqqdy.github.io#readme"
 }

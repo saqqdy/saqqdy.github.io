@@ -9,18 +9,18 @@ title: guide
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/gitmars.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/gitmars
-[travis-image]: https://travis-ci.org/saqqdy/gitmars.svg?branch=master
-[travis-url]: https://travis-ci.org/saqqdy/gitmars
-[codecov-image]: https://img.shields.io/codecov/c/github/saqqdy/gitmars.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/saqqdy/gitmars?branch=master
-[david-image]: https://img.shields.io/david/saqqdy/gitmars.svg?style=flat-square
-[david-url]: https://david-dm.org/saqqdy/gitmars
-[snyk-image]: https://snyk.io/test/npm/gitmars/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/gitmars
-[download-image]: https://img.shields.io/npm/dm/gitmars.svg?style=flat-square
-[download-url]: https://npmjs.org/package/gitmars
+[npm-image]: https://img.shields.io/npm/v/saqqdy.github.io.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/saqqdy.github.io
+[travis-image]: https://travis-ci.org/saqqdy/saqqdy.github.io.svg?branch=master
+[travis-url]: https://travis-ci.org/saqqdy/saqqdy.github.io
+[codecov-image]: https://img.shields.io/codecov/c/github/saqqdy/saqqdy.github.io.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/saqqdy/saqqdy.github.io?branch=master
+[david-image]: https://img.shields.io/david/saqqdy/saqqdy.github.io.svg?style=flat-square
+[david-url]: https://david-dm.org/saqqdy/saqqdy.github.io
+[snyk-image]: https://snyk.io/test/npm/saqqdy.github.io/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/saqqdy.github.io
+[download-image]: https://img.shields.io/npm/dm/saqqdy.github.io.svg?style=flat-square
+[download-url]: https://npmjs.org/package/saqqdy.github.io
 
 ## 它是如何工作的
 
@@ -33,7 +33,7 @@ title: guide
 
 ## 工作流展示
 
-![gitmars.png](https://raw.githubusercontent.com/saqqdy/gitmars/master/lib/img/gitmars.png)
+![gitmars.png](https://raw.githubusercontent.com/saqqdy/saqqdy.github.io/master/lib/img/gitmars.png)
 
 ## 有哪些功能
 
