@@ -1,8 +1,6 @@
 ---
-title: guide
+title: demo
 ---
-
-![logo.png](https://raw.githubusercontent.com/saqqdy/saqqdy.github.io/master/lib/img/logo.png)
 
 # h1
 
@@ -31,3 +29,5 @@ title: guide
 ::: details
 这是一个详情块，在 IE / Edge 中不生效
 :::
+
+<base-Star></base-Star>
