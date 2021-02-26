@@ -6,7 +6,7 @@
         "docs:dev": "vuepress dev docs",
         "docs:build": "vuepress build docs",
         "docs:deploy": "GH=1 sh script/deploy-docs.sh",
-        "prettier": "prettier --write \"**/*.{js,ts,sh,vue,json,md}\""
+        "prettier": "prettier --write \"**/*.{js,ts,vue,json,md}\""
     },
     "main": "index.js",
     "private": true,
@@ -15,6 +15,7 @@
         "@saqqdy/prettier-config": "^1.0.3",
         "eslint": "^7.20.0",
         "eslint-config-sets": "^1.0.10",
+        "gray-matter": "^4.0.2",
         "less": "^4.1.1",
         "less-loader": "7.3.0",
         "prettier": "^2.2.1",
