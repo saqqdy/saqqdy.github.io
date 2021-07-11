@@ -1,4 +1,4 @@
-const docs = require('./docs.json')
+// const docs = require('./docs.json')
 
 module.exports = {
     title: '上岸QQ的鱼',
@@ -44,7 +44,7 @@ module.exports = {
             { text: '想法', link: '/idea/' },
             { text: '项目', link: '/projects/' },
             { text: '博客', link: '/blog' },
-            { text: '日志', link: '/diary' },
+            // { text: '日志', link: '/diary' },
             {
                 text: '更多',
                 items: [
@@ -76,15 +76,15 @@ module.exports = {
             }
         ],
         sidebar: {
-            '/diary': [
-                {
-                    title: '日志',
-                    // path: '/diary',
-                    collapsable: false,
-                    sidebarDepth: 2,
-                    children: docs
-                }
-            ],
+            // '/diary': [
+            //     {
+            //         title: '日志',
+            //         // path: '/diary',
+            //         collapsable: false,
+            //         sidebarDepth: 2,
+            //         children: docs
+            //     }
+            // ],
             '/node/': [
                 {
                     title: 'Node',
