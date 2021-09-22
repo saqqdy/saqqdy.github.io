@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/gitmars.png
+heroImage: null # /images/gitmars.png
 heroText: 上岸QQ的鱼
 tagline: 我的前端开发日记
 actionText: Start →
