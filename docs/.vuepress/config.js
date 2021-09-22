@@ -43,7 +43,7 @@ module.exports = {
             },
             { text: '想法', link: '/idea/' },
             { text: '项目', link: '/projects/' },
-            { text: '博客', link: '/blog' },
+            // { text: '博客', link: '/blog' },
             // { text: '日志', link: '/diary' },
             {
                 text: '更多',

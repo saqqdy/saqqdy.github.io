@@ -2,7 +2,7 @@
 home: true
 heroImage: null # /images/gitmars.png
 heroText: 上岸QQ的鱼
-tagline: 我的前端开发日记
+tagline: 我的前端开发日记(还没有什么内容，慎点)
 actionText: Start →
 actionLink: /node/
 features:
