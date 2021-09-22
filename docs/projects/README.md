@@ -2,32 +2,12 @@
 title: demo
 ---
 
-# h1
+## 开源库资源汇总
 
-## h2
+1. UI组件
 
-### h3
+2. 工具库
 
-### Badge <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
-
-<span v-for="i in 3">{{ i }} </span>
-
-{{$page.frontmatter.title}}
-
-::: tip
-这是一个提示
-:::
-
-::: warning
-这是一个警告
-:::
-
-::: danger
-这是一个危险警告
-:::
-
-::: details
-这是一个详情块，在 IE / Edge 中不生效
-:::
+* 删掉废弃的文件和exports：[ts-unused-exports](https://github.com/pzavolinsky/ts-unused-exports)
 
 <base-Star></base-Star>
