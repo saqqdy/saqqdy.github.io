@@ -14,8 +14,3 @@ features:
       details: VuePress 为每个页面预渲染生成静态的 HTML
 footer: MIT Licensed | Copyright © 2021-present saqqdy
 ---
-
-```shell
-# 安装
-
-```
