@@ -16,6 +16,7 @@ title: demo
 *  vite中的glob import：[fast-glob](https://www.npmjs.com/package/fast-glob)
 *  vite构建成静态站：[vite-ssg](https://github.com/antfu/vite-ssg)
 *  微软 Rush 是为 Monorepo 工程设计的一体化解决方案：[Rush](https://rushjs.io/pages/intro/welcome/)
+*  创建兼容vue2和vue3的组件库：[vue-demi](https://github.com/vueuse/vue-demi)
 
 vue-tsc
 volar
