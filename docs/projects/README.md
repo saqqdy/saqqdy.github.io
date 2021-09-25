@@ -17,6 +17,10 @@ title: demo
 *  vite构建成静态站：[vite-ssg](https://github.com/antfu/vite-ssg)
 *  微软 Rush 是为 Monorepo 工程设计的一体化解决方案：[Rush](https://rushjs.io/pages/intro/welcome/)
 *  创建兼容vue2和vue3的组件库：[vue-demi](https://github.com/vueuse/vue-demi)
+*  扫描import语法：[es-module-lexer](https://github.com/guybedford/es-module-lexer)
+*  代码压缩google brotli：[brotli](https://github.com/google/brotli/)
+*  兼容vue2，@vue/compat
+*  vite凡尔赛插件：[vite-plugin-sleep](https://github.com/IndexXuan/vite-plugin-sleep)
 
 vue-tsc
 vueuse
