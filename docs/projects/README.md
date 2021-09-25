@@ -19,7 +19,6 @@ title: demo
 *  创建兼容vue2和vue3的组件库：[vue-demi](https://github.com/vueuse/vue-demi)
 
 vue-tsc
-volar
 vueuse
 
 <base-Star></base-Star>
