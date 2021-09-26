@@ -21,6 +21,8 @@ title: demo
 *  代码压缩google brotli：[brotli](https://github.com/google/brotli/)
 *  兼容vue2，@vue/compat
 *  vite凡尔赛插件：[vite-plugin-sleep](https://github.com/IndexXuan/vite-plugin-sleep)
+*  corn定时任务字符串解析：[cron-parser](https://github.com/harrisiirak/cron-parser)
+
 
 vue-tsc
 vueuse
