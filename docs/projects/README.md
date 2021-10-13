@@ -24,7 +24,8 @@ title: demo
 *  corn定时任务字符串解析：[cron-parser](https://github.com/harrisiirak/cron-parser)
 *  vue2使用vite：[vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2)
 *  将 ANSI 颜色转换为终端输出：[nanocolors](https://github.com/ai/nanocolors)
-*  PPT工具：[slidev](https://github.com/slidevjs/slidev)
+*  PPT工具：https://cn.sli.dev [slidev](https://github.com/slidevjs/slidev)
+*  node环境执行cjs和esm： [esno](https://github.com/antfu/esno)
 
 
 vue-tsc
