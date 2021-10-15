@@ -4,7 +4,7 @@ heroImage: null # /images/gitmars.png
 heroText: 上岸QQ的鱼
 tagline: 我的前端开发日记(还没有什么内容，慎点)
 actionText: Start →
-actionLink: /node/
+actionLink: /projects/
 features:
     - title: 高效
       details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
