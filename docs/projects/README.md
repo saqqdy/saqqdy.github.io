@@ -26,6 +26,8 @@ title: demo
 -   将 ANSI 颜色转换为终端输出：[nanocolors](https://github.com/ai/nanocolors)
 -   PPT 工具：https://cn.sli.dev [slidev](https://github.com/slidevjs/slidev)
 -   node 环境执行 cjs 和 esm： [esno](https://github.com/antfu/esno)
+-   Node in CJS mode：[esbuild-register](https://github.com/egoist/esbuild-register)
+-   Node in ESM mode：[esbuild-node-loader](https://github.com/antfu/esbuild-node-loader)
 
 vue-tsc
 vueuse
