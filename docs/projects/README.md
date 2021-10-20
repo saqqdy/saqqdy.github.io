@@ -28,6 +28,7 @@ title: demo
 -   node 环境执行 cjs 和 esm： [esno](https://github.com/antfu/esno)
 -   Node in CJS mode：[esbuild-register](https://github.com/egoist/esbuild-register)
 -   Node in ESM mode：[esbuild-node-loader](https://github.com/antfu/esbuild-node-loader)
+-   开源的npm Repository Manager：[Repository Manager 3](https://help.sonatype.com/repomanager3)
 
 vue-tsc
 vueuse
