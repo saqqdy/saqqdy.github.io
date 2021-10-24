@@ -26,6 +26,7 @@ title: demo
 - [saqqdy-cli](https://github.com/saqqdy/saqqdy-cli.git)：saqqdy cli工具
 - [electron-express-starter](https://github.com/saqqdy/electron-express-starter.git)：electron express starter
 - [electron-vite-vue3-starter](https://github.com/saqqdy/electron-vite-vue3-starter.git)：electron vite vue3 starter
+- [windicss-vite-vue3-starter](https://github.com/saqqdy/windicss-vite-vue3-starter.git)：windicss vite vue3 starter
 
 
 <base-Star></base-Star>

@@ -1,8 +1,8 @@
 // const docs = require('./docs.json')
 
 module.exports = {
-    title: '上岸QQ的鱼',
-    description: '我的前端开发日记',
+    title: 'saqqdy',
+    description: 'Development Diary',
     base: '/',
     dest: './docs/.vuepress/dist',
     theme: '@vuepress/default',
