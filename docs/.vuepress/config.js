@@ -42,7 +42,9 @@ module.exports = {
                 ]
             },
             { text: '想法', link: '/idea/' },
+            { text: 'Deno', link: '/deno/' },
             { text: '项目', link: '/projects/' },
+            { text: '知识点', link: '/knowledge/' },
             // { text: '博客', link: '/blog' },
             // { text: '日志', link: '/diary' },
             {
@@ -76,19 +78,53 @@ module.exports = {
             }
         ],
         sidebar: {
-            // '/diary': [
-            //     {
-            //         title: '日志',
-            //         // path: '/diary',
-            //         collapsable: false,
-            //         sidebarDepth: 2,
-            //         children: docs
-            //     }
-            // ],
+            '/knowledge/': [
+                {
+                    title: '指南',
+                    collapsable: false,
+                    sidebarDepth: 1,
+                    children: [
+                        {
+                            title: '介绍',
+                            path: '/knowledge/',
+                            collapsable: false
+                        },
+                        {
+                            title: 'npm包',
+                            path: 'packages',
+                            collapsable: false
+                        },
+                        {
+                            title: 'javascript',
+                            path: 'javascript',
+                            collapsable: false
+                        },
+                        {
+                            title: 'typescript',
+                            path: 'typescript',
+                            collapsable: false
+                        }
+                        // {
+                        //     title: '兼容性',
+                        //     path: 'compatibility',
+                        //     collapsable: false
+                        // }
+                    ]
+                }
+            ],
             '/node/': [
                 {
                     title: 'Node',
                     path: '/node/',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    sidebar: 'auto'
+                }
+            ],
+            '/deno/': [
+                {
+                    title: 'Deno',
+                    path: '/deno/',
                     collapsable: false,
                     sidebarDepth: 2,
                     sidebar: 'auto'
@@ -166,7 +202,7 @@ module.exports = {
         ]
     ],
     markdown: {
-        lineNumbers: true,
+        lineNumbers: false,
         toc: { includeLevel: [2, 3] }
     },
     sidebarDepth: 1,

@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: null # /images/gitmars.png
-heroText: 上岸QQ的鱼
-tagline: 我的前端开发日记(还没有什么内容，慎点)
+heroText: saqqdy
+tagline: Development Diary(还没有什么内容，慎点)
 actionText: Start →
 actionLink: /projects/
 features:
@@ -14,3 +14,8 @@ features:
       details: VuePress 为每个页面预渲染生成静态的 HTML
 footer: MIT Licensed | Copyright © 2021-present saqqdy
 ---
+
+```shell
+# Welcome
+echo 'i am a gooooooood man'
+```
