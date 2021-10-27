@@ -24,9 +24,9 @@
 -   node 环境执行 cjs 和 esm： [esno](https://github.com/antfu/esno)
 -   Node in CJS mode：[esbuild-register](https://github.com/egoist/esbuild-register)
 -   Node in ESM mode：[esbuild-node-loader](https://github.com/antfu/esbuild-node-loader)
--   开源的npm Repository Manager：[Repository Manager 3](https://help.sonatype.com/repomanager3)
--   同时运行多条npm watch指令：[concurrently](https://github.com/open-cli-tools/concurrently)
--   wait-on tcp:4000等待响应后执行后面脚本：[wait-on](https://github.com/jeffbski/wait-on)
+-   开源的 npm Repository Manager：[Repository Manager 3](https://help.sonatype.com/repomanager3)
+-   同时运行多条 npm watch 指令：[concurrently](https://github.com/open-cli-tools/concurrently)
+-   wait-on tcp:4000 等待响应后执行后面脚本：[wait-on](https://github.com/jeffbski/wait-on)
 
 vue-tsc
 vueuse

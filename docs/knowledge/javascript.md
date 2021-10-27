@@ -178,7 +178,7 @@ console.log(Object.prototype.toString.call(document)) // [object HTMLDocument]
 function sum(a) {
     let temp = b => sum(a + b)
     temp.toString = () => a // temp.toString这里写成temp.valueOf也可以
-    // this.count = 
+    // this.count =
     console.log(temp)
     return temp
 }

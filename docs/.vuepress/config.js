@@ -72,7 +72,9 @@ module.exports = {
                     },
                     {
                         text: '作者',
-                        items: [{ text: 'saqqdy', link: 'http://www.saqqdy.com' }]
+                        items: [
+                            { text: 'saqqdy', link: 'http://www.saqqdy.com' }
+                        ]
                     }
                 ]
             }

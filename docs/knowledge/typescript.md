@@ -1,5 +1,3 @@
-
-
 ## 总结
 
 1. 预置类型
@@ -33,7 +31,6 @@ class ExampleClass {
 ```
 
 ## 一、预置类型
-
 
 1. `Record<Keys, Type>` 定义一个对象的 key 和 value 类型
 
@@ -309,14 +306,22 @@ obj.moveBy(5, 5)
 ```ts
 function first() {
     console.log('first(): factory evaluated')
-    return function (target: any, propertyKey: string, descriptor: PropertyDescriptor) {
+    return function (
+        target: any,
+        propertyKey: string,
+        descriptor: PropertyDescriptor
+    ) {
         console.log('first(): called')
     }
 }
 
 function second() {
     console.log('second(): factory evaluated')
-    return function (target: any, propertyKey: string, descriptor: PropertyDescriptor) {
+    return function (
+        target: any,
+        propertyKey: string,
+        descriptor: PropertyDescriptor
+    ) {
         console.log('second(): called')
     }
 }
