@@ -92,6 +92,11 @@ module.exports = {
                             collapsable: false
                         },
                         {
+                            title: 'CSS & HTML',
+                            path: 'css-html',
+                            collapsable: false
+                        },
+                        {
                             title: 'npm包',
                             path: 'packages',
                             collapsable: false
@@ -105,12 +110,17 @@ module.exports = {
                             title: 'typescript',
                             path: 'typescript',
                             collapsable: false
+                        },
+                        {
+                            title: 'Vue 2 & 3',
+                            path: 'vue',
+                            collapsable: false
+                        },
+                        {
+                            title: '手写js',
+                            path: 'write',
+                            collapsable: false
                         }
-                        // {
-                        //     title: '兼容性',
-                        //     path: 'compatibility',
-                        //     collapsable: false
-                        // }
                     ]
                 }
             ],
