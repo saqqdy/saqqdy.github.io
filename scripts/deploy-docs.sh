@@ -7,7 +7,7 @@ set -e
 yarn run docs:build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd docs/dist
 touch CNAME
 echo 'www.saqqdy.com' > CNAME
 

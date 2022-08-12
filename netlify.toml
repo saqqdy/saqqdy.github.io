@@ -2,7 +2,7 @@
   NODE_VERSION = "14"
 
 [build]
-  publish = "docs/.vuepress/dist"
+  publish = "docs/dist"
   command = "npm run docs:build"
 
 [[redirects]]

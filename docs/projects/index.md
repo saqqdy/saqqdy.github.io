@@ -19,9 +19,9 @@ title: demo
 -   [@saqqdy/prettier-config](https://github.com/saqqdy/prettier-config.git)：个人自用的 prettier 配置
 -   [xterm-style](https://github.com/saqqdy/xterm-style.git)：xterm 样式模板
 -   [marsgit](https://github.com/saqqdy/marsgit.git)：gitmars 的 deno 版本（开发中）
--   [vuepress-doc](https://github.com/saqqdy/vuepress-doc.git)：vuepress 文档模板
+-   [vitepress-doc](https://github.com/saqqdy/vitepress-doc.git)：vitepress 文档模板
 -   [vue-lazy-compile-webpack-plugin](https://github.com/saqqdy/vue-lazy-compile-webpack-plugin.git)：vue 懒构建插件
--   [domtoimg](https://github.com/saqqdy/vuepress-doc.git)：基于 dom-to-image 优化的版本，解决移动端转图分辨率过低的问题
+-   [domtoimg](https://github.com/saqqdy/vitepress-doc.git)：基于 dom-to-image 优化的版本，解决移动端转图分辨率过低的问题
 -   [ui-lib](https://github.com/saqqdy/ui-lib.git)：vue 组件库完整方案
 -   [saqqdy-cli](https://github.com/saqqdy/saqqdy-cli.git)：saqqdy cli 工具
 -   [electron-express-starter](https://github.com/saqqdy/electron-express-starter.git)：electron express starter

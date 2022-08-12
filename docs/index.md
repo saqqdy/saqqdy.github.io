@@ -1,21 +1,26 @@
 ---
-home: true
-heroImage: null # /images/gitmars.png
-heroText: saqqdy
-tagline: Development Diary(还没有什么内容，慎点)
-actionText: Start →
-actionLink: /projects/
+layout: home
+title: saqqdy
+titleTemplate: Development Diary
+
+hero:
+    name: saqqdy
+    text: Development Diary
+    tagline: 这里记录我的代码之路 (还没有什么内容，慎点)
+    actions:
+        - theme: brand
+          text: 开始 →
+          link: /projects/
+        - theme: alt
+          text: 去GitHub看源码
+          link: https://github.com/saqqdy/saqqdy.github.io
+
 features:
-    - title: 高效
-      details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-    - title: 智能
-      details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件。
-    - title: 容错
-      details: VuePress 为每个页面预渲染生成静态的 HTML
+    - title: 项目
+      details: 多年累积贡献的开源项目
+    - title: 知识点
+      details: 前端相关知识点
+    - title: 想法
+      details: 记录一些开源想法和功能点
 footer: MIT Licensed | Copyright © 2021-present saqqdy
 ---
-
-```shell
-# Welcome
-echo 'i am a gooooooood man'
-```

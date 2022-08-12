@@ -47,7 +47,7 @@ const getInfo = (entry, fileName, data) => {
 }
 readDir(argvs[0] || 'docs')
 fs.writeFileSync(
-    path.join(process.cwd(), 'docs/.vuepress/docs.json'),
+    path.join(process.cwd(), 'docs/.vitepress/docs.json'),
     JSON.stringify(list)
 )
 fs.writeFileSync(path.join(process.cwd(), 'docs/blog.md'), str)

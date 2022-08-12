@@ -12,7 +12,7 @@ function Foo() {}
 Foo.prototype = {
     constructor: Foo // 不写默认指向Foo
 }
-var foo = new Foo()
+const foo = new Foo()
 // foo.__proto__ === Foo.prototype === Object.getPrototypeOf(foo)
 // foo.__proto__.__proto__ === Object.prototype
 // Foo.prototype.constructor === Foo === foo.constructor
@@ -118,7 +118,7 @@ console.log(typeof new Date()) // object
 // 1. Number隐式转换
 // 下面3种情况，先调用valueOf方法，遇到原始值2直接输出，如果不是原始值，调用toString()方法（如果没有toString()方法，往原型上找toString()方法），如果toString()返回的不是原始值，报错
 // Object.prototype.toString(obj) -> [object Object]
-var obj = {
+const obj = {
     toString() {
         return 1
     },
@@ -127,7 +127,7 @@ var obj = {
     }
 }
 console.log(Number(obj)) // 2
-var obj1 = {
+const obj1 = {
     toString() {
         return 1
     },
@@ -136,7 +136,7 @@ var obj1 = {
     }
 }
 console.log(Number(obj1)) // 1
-var obj2 = {
+const obj2 = {
     valueOf() {
         return {}
     }
@@ -176,7 +176,7 @@ console.log(Object.prototype.toString.call(document)) // [object HTMLDocument]
 
 ```js
 function sum(a) {
-    let temp = b => sum(a + b)
+    const temp = b => sum(a + b)
     temp.toString = () => a // temp.toString这里写成temp.valueOf也可以
     // this.count =
     console.log(temp)

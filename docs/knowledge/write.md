@@ -29,7 +29,7 @@ function myInstanceOf(newObject, constructor) {
 	}
 }
 function A() {}
-let a = new A()
+const a = new A()
 console.log(myInstanceOf(a, Object)) // true
 
 ```
