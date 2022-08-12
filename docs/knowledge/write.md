@@ -1,7 +1,7 @@
-## 手写JavaScript
+## 手写 JavaScript
 
 1. 手写 Object.create
-思路：将传入的对象作为原型
+   思路：将传入的对象作为原型
 
 ```js
 function create(obj) {
@@ -12,7 +12,7 @@ function create(obj) {
 ```
 
 2. 手写 instanceof 方法
-instanceof 运算符用于判断构造函数的 prototype 属性是否出现在对象的原型链中的任何位置。
+   instanceof 运算符用于判断构造函数的 prototype 属性是否出现在对象的原型链中的任何位置。
 
 实现步骤：
 首先获取类型的原型
@@ -21,15 +21,14 @@ instanceof 运算符用于判断构造函数的 prototype 属性是否出现在�
 
 ```js
 function myInstanceOf(newObject, constructor) {
-	let proto = Object.getPrototypeOf(newObject)
-	while (true) {
-		if (!proto) return false
-		if (proto === constructor.prototype) return true
-		proto = Object.getPrototypeOf(proto)
-	}
+    let proto = Object.getPrototypeOf(newObject)
+    while (true) {
+        if (!proto) return false
+        if (proto === constructor.prototype) return true
+        proto = Object.getPrototypeOf(proto)
+    }
 }
 function A() {}
 const a = new A()
 console.log(myInstanceOf(a, Object)) // true
-
 ```
