@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./app.dde1ebf2.js";const m=JSON.parse('{"title":"diary","description":"","frontmatter":{"title":"diary"},"headers":[],"relativePath":"diary.md"}'),r={name:"diary.md"};function o(i,s,c,d,n,p){return t(),a("div")}var f=e(r,[["render",o]]);export{m as __pageData,f as default};
