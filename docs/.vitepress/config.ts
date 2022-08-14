@@ -49,10 +49,9 @@ const sidebar = {
 	'/node/': [
 		{
 			title: 'Node',
-			path: '/node/',
 			collapsable: false,
-			sidebarDepth: 2,
-			sidebar: 'auto'
+			sidebar: 'auto',
+			items: []
 		}
 	],
 	'/deno/': [
@@ -61,37 +60,38 @@ const sidebar = {
 			path: '/deno/',
 			collapsable: false,
 			sidebarDepth: 2,
-			sidebar: 'auto'
-		}
-	],
-	'/guide/': [
-		{
-			title: '指南',
-			collapsable: false,
-			items: [
-				{
-					title: '介绍',
-					path: '/guide/',
-					collapsable: false
-				},
-				{
-					title: '快速上手',
-					path: 'getting-start',
-					collapsable: false
-				},
-				{
-					title: '基本配置',
-					path: 'basic-config',
-					collapsable: false
-				},
-				{
-					title: '兼容性',
-					path: 'compatibility',
-					collapsable: false
-				}
-			]
+			sidebar: 'auto',
+			items: []
 		}
 	]
+	// '/guide/': [
+	// 	{
+	// 		title: '指南',
+	// 		collapsable: false,
+	// 		items: [
+	// 			{
+	// 				title: '介绍',
+	// 				path: '/guide/',
+	// 				collapsable: false
+	// 			},
+	// 			{
+	// 				title: '快速上手',
+	// 				path: 'getting-start',
+	// 				collapsable: false
+	// 			},
+	// 			{
+	// 				title: '基本配置',
+	// 				path: 'basic-config',
+	// 				collapsable: false
+	// 			},
+	// 			{
+	// 				title: '兼容性',
+	// 				path: 'compatibility',
+	// 				collapsable: false
+	// 			}
+	// 		]
+	// 	}
+	// ]
 }
 
 module.exports = defineConfigWithTheme({

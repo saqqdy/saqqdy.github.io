@@ -6,4 +6,4 @@ title: demo
 
 It's nothing
 
-<base-Star></base-Star>
+<!-- <base-Star></base-Star> -->

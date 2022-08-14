@@ -28,4 +28,4 @@ title: demo
 -   [electron-vite-vue3-starter](https://github.com/saqqdy/electron-vite-vue3-starter.git)：electron vite vue3 starter
 -   [windicss-vite-vue3-starter](https://github.com/saqqdy/windicss-vite-vue3-starter.git)：windicss vite vue3 starter
 
-<base-Star></base-Star>
+<!-- <base-Star></base-Star> -->
